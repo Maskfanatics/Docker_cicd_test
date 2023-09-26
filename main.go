@@ -133,6 +133,6 @@ func countRecords(db *sql.DB) (int, error) {
 		}
 		rows.Close()
 	}
-
+	fmt.Println("test")
 	return count, nil
 }
